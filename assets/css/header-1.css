@@ -1,0 +1,226 @@
+/* ------------------------------ header-1 Starts ----------------------------- */
+/* header-1 Widgets Starts */
+/* header-1 Starts */
+.header .navbar {
+	padding: 30px 70px;
+}
+
+.sticky-header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.header .navbar-brand {
+  padding: 0;
+  margin: 0 40px 0 0;
+}
+
+.header .custom-menu ul li a.nav-link {
+  padding: 14px 15px 14px 15px;
+  color: #0A0A27;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19.5px;
+  letter-spacing: 0.5249999761581421px;
+  text-align: left;
+  
+  text-transform: uppercase;
+}
+
+.header .custom-menu ul li a.nav-link:hover {
+/*   font-weight: 600; */
+background-color: #FA4321;
+	color: #fff;
+}
+
+/* Dropdown Menu */
+.header .custom-menu .sub-menu {
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  min-width: 240px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-shadow: none;
+  background-color: #fff;
+  padding-left: 14px;
+}
+
+.header .custom-menu  .sub-menu li {
+  transition: 0.5s;
+}
+
+.header .custom-menu .sub-menu .nav-link {
+  padding: 10px 15px;
+  color: #515151;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400!important;
+  line-height: 150%;
+}
+
+.header .custom-menu .sub-menu li.nav-item:hover a {
+  color:  #fff;
+  font-weight: 400;
+}
+
+.sticky-header-style {
+	height:143px;
+}
+
+.header-1 .header-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-1 .navbar-brand a {
+	color: #333333;
+}
+.header-1 .navbar-brand h2 {
+	    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: inherit;
+    text-transform: none;
+    color: #fff;
+	margin-bottom:0;
+}
+.header-1 .navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.header-1 .mainmenu ul {
+  padding-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.header-1 .nav-link i,
+.header-1 .navbar-expand-lg .navbar-nav .nav-link i {
+  font-size: 12px;
+  padding-left: 5px;
+}
+.header-1 .dropdown-menu {
+  padding: 0;
+}
+
+/* .dropdown.active a{
+	font-weight:600!important;
+} */
+
+
+/* light theme end */
+@media only screen and (min-width:992px) {
+.header .custom-menu ul li .sub-menu:after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -40%;
+  border-width: 9px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+/* .header .fa-chevron-down {
+  display: none;
+} */
+
+.header .custom-menu ul li .sub-menu {
+  display: none;
+}
+
+.header .custom-menu ul li:hover .sub-menu {
+  display: block;
+}
+}
+@media only screen and (max-width:991px) {
+  .header .logo-image {
+    height: 30px !important;
+}
+.header .navbar {
+	padding: 15px;
+}
+ 
+  .header .navbar-toggler {
+    color: #0A0A27;
+  }
+  .header .navbar-brand {
+    margin: 0 15px 0 0;
+  }
+  .header .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    background-color: #121212;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+	  z-index:1;
+  }
+  .header .custom-menu ul li a.nav-link {
+    color: #fff;
+  }
+  .header .mainmenu ul li.menu-item-has-children .fa-chevron-down {
+    transition: 0.5s;
+  }
+  
+  .header .menu-item-has-children.show .fa-chevron-down {
+    transform: rotateX(180deg);
+    transition: 0.5s;
+  }
+  .header-1 .dropdown-menu {
+    padding-top: 0;
+  }
+
+  .header-1 li.dropdown a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-1 .mainmenu {
+    max-height: 100%;
+    overflow: auto;
+  }
+  .header-1 .navbar-nav {
+    position: relative;
+  }
+  .header-1 .navbar-nav .show .dropdown-menu,
+  .header-1 .navbar-nav .show .dropdown-menu .dropdown-menu {
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    /* margin-left: 20px; */
+    font-size: 14px;
+    text-transform: capitalize;
+    /* padding: 5px; */
+    left: auto;
+    padding: 0;
+    margin-left: 15px;
+    border-radius:8px;
+  }
+
+  .header-1 .navbar-nav .show .dropdown-menu li,
+  .header-1 .navbar-nav .show .dropdown-menu .dropdown-menu li {
+    line-height: 30px;
+  }
+
+  .header-1 .dropdown-menu {
+    margin: 0;
+  }
+
+}
+
+ 
+

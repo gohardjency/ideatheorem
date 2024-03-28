@@ -1,0 +1,377 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../css/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+/* .header-banner {
+  padding: 30px 0;
+  background-color: #030122;
+} */
+select:focus-visible,
+input:focus-visible {
+  outline-offset: 0px;
+  outline: none;
+}
+
+
+.full-width-banner {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.full-width-banner h1 {
+  color: #fff;
+  font-family: "Montserrat",sans-serif;
+font-size: 39px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0.31698110699653625px;
+text-align: center;
+
+}
+.Blog-archive {
+  margin: 40px 0;
+}
+.featured-image img {
+  height: 200px;
+}
+.archive-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.archive-title {
+  padding: 20px 0;
+}
+.archive-title a {
+  font-family: "Montserrat",sans-serif;
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.31698110699653625px;
+  color: #0A0A27;
+}
+
+/* Footer css starts */
+.footer-widget {
+  display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-1 {
+  background-color: #121212;
+  padding: 49px 0px 20px 0px;
+}
+/* footer widget starts */
+
+.footer-1 .social-icons {
+  text-align: right;
+}
+.footer-1 .social-icons a {
+  margin-right: 16px;
+  font-size:20px;
+	color: rgba(255, 255, 255, 0.9);
+}
+.footer-1 .social-icons a:last-child {
+  margin-right: 0px;
+}
+.footer-1 .social-text {
+  color: #FFF;
+text-align: right;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 12px;
+}
+
+.footer-1  .social-icons a:hover {
+  color: #C58BFF;
+}
+
+.footer-1 .footer-widget ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.footer-1 .footer-widget .widget_nav_menu {
+  list-style-type: none;
+}
+.footer-1 .footer-widget ul a {
+  color: #FFF;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+	padding:0;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+	margin-bottom:15px;
+}
+.footer-1 .footer-widget ul a:hover {
+  color: #C58BFF;
+}
+#footer_copy {
+  margin-top: 36px;
+  text-align: center;
+  color: #FFF;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 138.462% */
+	text-transform:capitalize;
+}
+.footer-1 .footer-brand-logo img {
+    position: relative;
+}
+@media only screen and (max-width: 1050px) {
+.footer-1 .social-icons a {
+  margin-right: 14px;
+}
+}
+@media only screen and (max-width: 991px) {
+  .footer-1 .footer-widget ul {
+    display: block;
+  }
+  .footer-brand-logo {
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  .footer-1 .footer-widget .widget_nav_menu {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.footer-1 .social-icons,
+.footer-1 .social-text {
+  text-align: center;
+}
+.footer-widget:nth-child(2) {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+}
+@media only screen and (max-width: 767px) {
+  .footer-1 .footer-widget ul {
+    display: block;
+  }
+}
+
+/* Footer css ends */
+
+/* 404 Page CSS Sarts */
+.error-page {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.error-page a {
+  color: inherit;
+}
+
+/* 404 Page CSS Ends */
+
+/* gutenberg css starts */
+@media only screen and (min-width: 576px) {
+  .alignwide {
+    /* Set these margins to work with your own theme. */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+/* gutenberg css ends */
+
+/* Privacy Policy Start */
+.privacy-policy a {
+  color: #212529;
+  transition: 0.5s;
+}
+
+.privacy-policy a:hover {
+  color: #03C07C;
+  text-decoration: none;
+}
+/* Privacy Policy End */
+
+/* Media Query */
+
+/* horizontal line */
+
+hr.horizontal-line {
+  width: 165px;
+height: 1px;
+  background: #BE7DFF;
+	border:none;
+/*   margin-bottom:73px; */
+/*   margin: 65px auto 70px; */
+}
+@media only screen and (max-width:767px){
+  hr.horizontal-line {
+    margin: 50px auto;
+  }
+}
+/* horizontal line end */
+
+/* **************************** GENERAL COMMON CSS STARTS ***************************************** */
+.banner-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 120px;
+}
+.banner-section .container-fluid {
+  padding-left: 0;
+}
+.banner-padding {
+  padding-left: 15%;
+}
+.btn-back {
+  padding: 20px 0;
+}
+.btn-back a {
+  font-family: "Montserrat",sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.94px;
+letter-spacing: 0.9375px;
+text-align: left;
+color: #000;
+}
+.banner-content {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  padding-right: 25px;
+  /* width: 53%; */
+}
+.banner-content img.img-woodbine {
+  height: 59px;
+  margin-bottom: 20px;
+}
+.banner-content h1 {
+  color: #0A0A27;
+  padding-bottom: 30px;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* .banner-content .border-design {
+  width: 54px;
+  height: 2.33px;
+  background-color: #FA4321;
+  margin-bottom: 20px;
+} */
+.banner-content h1:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 2.33px;
+  width   : 54px;  /* or 100px */
+  border-bottom:2.33px solid #FA4321;
+}
+.banner-content .author-content p {
+  font-family: "Montserrat",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+color: #0A0A27;
+padding-bottom: 20px
+}
+.author-detail {
+  display: flex;
+  align-items: center;
+}
+.author-content .author-detail img {
+  height: 62.79px;
+  margin-right: 15px;
+}
+.author-content .author-detail h5 {
+
+}
+.author-content .author-detail p{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: "Montserrat",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #0A0A27;
+}
+
+.challenge-section {
+  margin: 50px 0;
+}
+.challenge-section h3 {
+  color: #0A0A27;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+.challenge-section h3:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 2.33px;
+  width   : 63.22px;  /* or 100px */
+  border-bottom:2.33px solid #FA4321;
+}
+.challenge-section p {
+  font-family: "Montserrat",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+}
+.challenge-image {
+  padding: 50px 110px;
+  background-color: #F0F2F3;
+}
+.challenge-image img {
+  width: 100%;
+}
+@media only screen and (max-width:767px){
+  .banner-section .container-fluid {
+    padding: 10px;
+  }
+  .banner-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 8px;
+  }
+  .banner-section {
+    padding-bottom: 60px;
+  }
+  .banner-padding {
+    padding-left: 6%;
+}
+.challenge-image {
+  padding: 15px;
+}
+.banner-content img.img-woodbine {
+  height: 40px;
+}
+.banner-content .author-content p {
+  font-size: 13px;
+}
+.challenge-section p {
+  font-size: 14px;
+  line-height: 27px;
+}
+.btn-back a {
+  font-size: 12px;
+}
+}
